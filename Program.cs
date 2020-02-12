@@ -3,6 +3,7 @@
 namespace C_Review
 {
     class Program
+
     {
         static void Main(string[] args)
         {
@@ -18,8 +19,33 @@ namespace C_Review
             }
             else if ( x > 30 ){
                 Console.WriteLine("X is bigger than thirty");
-
+        
             }
+
+            int a = 3;
+            switch (a) 
+            {
+                case 1:
+                    Console.WriteLine("Value is 1!");
+                    break;
+                case 2:
+                    Console.WriteLine("Value is 2!");
+                    break;
+                case 3:
+                    Console.WriteLine("Value is 3!");
+                    break;
+                default:
+                    Console.WriteLine("Oh, it's a nother value!");
+                break;
+            }
+            // Let's call a method.
+            MyMethod();
         }
+        static void MyMethod()
+        {
+            Console.WriteLine("Test!");
+        }
+
+
     }
 }
