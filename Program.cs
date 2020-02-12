@@ -10,6 +10,10 @@ namespace C_Review
             int x = 25;
             Console.WriteLine("Hello World!"+x);
 
+            int[] myarray = new int[5]{3,5,6,7,8};
+            myarray[0]=2; // update value
+            Console.WriteLine(myarray[0]);
+
             if (x < 30 ) {
                 Console.WriteLine("X is less than thirty");
 
